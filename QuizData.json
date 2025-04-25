@@ -2,49 +2,140 @@
   "categories": [
     {
       "id": 1,
-      "name": "Аниме",
+      "name": "Развлечения",
       "themes": [
         {
           "id": 1,
-          "name": "Классические аниме",
+          "name": "Аниме",
           "questions": [
             {
               "id": 1,
-              "question": "Кто главный герой 'Ковбоя Бибопа'?",
+              "question": "Какой студией аниме было создано 'Наруто'?",
               "answers": [
-                { "id": 1, "text": "Спайк Шпигель", "isCorrect": true },
-                { "id": 2, "text": "Вэш Стампед", "isCorrect": false },
-                { "id": 3, "text": "Джет Блэк", "isCorrect": false }
+                {
+                  "id": 1,
+                  "text": "Studio Pierrot",
+                  "isCorrect": true
+                },
+                {
+                  "id": 2,
+                  "text": "Bones",
+                  "isCorrect": false
+                },
+                {
+                  "id": 3,
+                  "text": "Madhouse",
+                  "isCorrect": false
+                },
+                {
+                  "id": 4,
+                  "text": "Ufotable",
+                  "isCorrect": false
+                }
               ],
-              "reward": 100,
+              "reward": 10,
               "difficulty": 1
-            },
-            {
-              "id": 2,
-              "question": "В каком году вышел 'Евангелион'?",
-              "answers": [
-                { "id": 1, "text": "1995", "isCorrect": true },
-                { "id": 2, "text": "1989", "isCorrect": false },
-                { "id": 3, "text": "2001", "isCorrect": false }
-              ],
-              "reward": 150,
-              "difficulty": 2
             }
           ]
         },
         {
           "id": 2,
-          "name": "Фильмы Хаяо Миядзаки",
+          "name": "Фильмы",
+          "questions": [
+            {
+              "id": 2,
+              "question": "Какой фильм получил Оскар за лучший фильм в 2020 году?",
+              "answers": [
+                {
+                  "id": 1,
+                  "text": "Паразиты",
+                  "isCorrect": true
+                },
+                {
+                  "id": 2,
+                  "text": "1917",
+                  "isCorrect": false
+                },
+                {
+                  "id": 3,
+                  "text": "Джокер",
+                  "isCorrect": false
+                },
+                {
+                  "id": 4,
+                  "text": "Однажды в Голливуде",
+                  "isCorrect": false
+                }
+              ],
+              "reward": 15,
+              "difficulty": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Комиксы",
           "questions": [
             {
               "id": 3,
-              "question": "Какой фильм Миядзаки получил 'Оскар'?",
+              "question": "Кто создал персонажа Бэтмена?",
               "answers": [
-                { "id": 1, "text": "Унесённые призраками", "isCorrect": true },
-                { "id": 2, "text": "Ходячий замок", "isCorrect": false },
-                { "id": 3, "text": "Принцесса Мононоке", "isCorrect": false }
+                {
+                  "id": 1,
+                  "text": "Боб Кейн и Билл Фингер",
+                  "isCorrect": true
+                },
+                {
+                  "id": 2,
+                  "text": "Стэн Ли и Джек Кирби",
+                  "isCorrect": false
+                },
+                {
+                  "id": 3,
+                  "text": "Джерри Сигел и Джо Шустер",
+                  "isCorrect": false
+                },
+                {
+                  "id": 4,
+                  "text": "Уилл Айснер",
+                  "isCorrect": false
+                }
               ],
-              "reward": 200,
+              "reward": 10,
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Манга",
+          "questions": [
+            {
+              "id": 4,
+              "question": "Кто является автором манги 'Токийские мстители'?",
+              "answers": [
+                {
+                  "id": 1,
+                  "text": "Кэн Вакуи",
+                  "isCorrect": true
+                },
+                {
+                  "id": 2,
+                  "text": "Эйитиро Ода",
+                  "isCorrect": false
+                },
+                {
+                  "id": 3,
+                  "text": "Хаяо Миядзаки",
+                  "isCorrect": false
+                },
+                {
+                  "id": 4,
+                  "text": "Хирохико Араки",
+                  "isCorrect": false
+                }
+              ],
+              "reward": 15,
               "difficulty": 2
             }
           ]
@@ -53,22 +144,73 @@
     },
     {
       "id": 2,
-      "name": "Фильмы",
+      "name": "Образование",
       "themes": [
         {
-          "id": 3,
-          "name": "Фантастика",
+          "id": 5,
+          "name": "История",
           "questions": [
             {
-              "id": 4,
-              "question": "Кто режиссёр 'Бегущего по лезвию 2049'?",
+              "id": 5,
+              "question": "В каком году началась Вторая мировая война?",
               "answers": [
-                { "id": 1, "text": "Дени Вильнёв", "isCorrect": true },
-                { "id": 2, "text": "Кристофер Нолан", "isCorrect": false },
-                { "id": 3, "text": "Ридли Скотт", "isCorrect": false }
+                {
+                  "id": 1,
+                  "text": "1939",
+                  "isCorrect": true
+                },
+                {
+                  "id": 2,
+                  "text": "1941",
+                  "isCorrect": false
+                },
+                {
+                  "id": 3,
+                  "text": "1935",
+                  "isCorrect": false
+                },
+                {
+                  "id": 4,
+                  "text": "1945",
+                  "isCorrect": false
+                }
               ],
-              "reward": 150,
-              "difficulty": 2
+              "reward": 10,
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Наука",
+          "questions": [
+            {
+              "id": 6,
+              "question": "Какая планета известна как 'Красная планета'?",
+              "answers": [
+                {
+                  "id": 1,
+                  "text": "Марс",
+                  "isCorrect": true
+                },
+                {
+                  "id": 2,
+                  "text": "Венера",
+                  "isCorrect": false
+                },
+                {
+                  "id": 3,
+                  "text": "Юпитер",
+                  "isCorrect": false
+                },
+                {
+                  "id": 4,
+                  "text": "Сатурн",
+                  "isCorrect": false
+                }
+              ],
+              "reward": 10,
+              "difficulty": 1
             }
           ]
         }
@@ -79,19 +221,36 @@
       "name": "Игры",
       "themes": [
         {
-          "id": 4,
-          "name": "RPG",
+          "id": 7,
+          "name": "Видеоигры",
           "questions": [
             {
-              "id": 5,
-              "question": "Какая игра вдохновила создателей 'Свитка Древних'?",
+              "id": 7,
+              "question": "Какая компания разработала серию игр 'The Legend of Zelda'?",
               "answers": [
-                { "id": 1, "text": "The Elder Scrolls", "isCorrect": true },
-                { "id": 2, "text": "Dark Souls", "isCorrect": false },
-                { "id": 3, "text": "The Witcher", "isCorrect": false }
+                {
+                  "id": 1,
+                  "text": "Nintendo",
+                  "isCorrect": true
+                },
+                {
+                  "id": 2,
+                  "text": "Sony",
+                  "isCorrect": false
+                },
+                {
+                  "id": 3,
+                  "text": "Microsoft",
+                  "isCorrect": false
+                },
+                {
+                  "id": 4,
+                  "text": "Sega",
+                  "isCorrect": false
+                }
               ],
-              "reward": 200,
-              "difficulty": 3
+              "reward": 15,
+              "difficulty": 2
             }
           ]
         }
