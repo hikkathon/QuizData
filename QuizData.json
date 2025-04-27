@@ -4,316 +4,883 @@
   "themes": [
     {
       "id": 1,
-      "name": "История",
+      "name": "История Древнего Мира",
       "questions": [
         {
           "id": 1,
-          "themeId": 1,
-          "text": "Кто был первым императором Римской империи?",
+          "text": "Какая цивилизация построила пирамиды в Гизе?",
           "answers": [
-            { "id": 1, "questionId": 1, "text": "Цезарь", "isCorrect": false },
-            { "id": 2, "questionId": 1, "text": "Октавиан Август", "isCorrect": true },
-            { "id": 3, "questionId": 1, "text": "Нерон", "isCorrect": false },
-            { "id": 4, "questionId": 1, "text": "Тиберий", "isCorrect": false }
+            {"id": 1, "text": "Древний Рим", "isCorrect": false},
+            {"id": 2, "text": "Древний Египет", "isCorrect": true},
+            {"id": 3, "text": "Древняя Греция", "isCorrect": false},
+            {"id": 4, "text": "Месопотамия", "isCorrect": false}
           ],
           "reward": 100,
           "difficulty": 1
         },
         {
           "id": 2,
-          "themeId": 1,
-          "text": "Когда была основана Римская империя?",
+          "text": "Кто был первым императором Рима?",
           "answers": [
-            { "id": 1, "questionId": 2, "text": "27 год до н. э.", "isCorrect": true },
-            { "id": 2, "questionId": 2, "text": "509 год до н. э.", "isCorrect": false },
-            { "id": 3, "questionId": 2, "text": "15 год до н. э.", "isCorrect": false },
-            { "id": 4, "questionId": 2, "text": "476 год н. э.", "isCorrect": false }
+            {"id": 5, "text": "Юлий Цезарь", "isCorrect": false},
+            {"id": 6, "text": "Октавиан Август", "isCorrect": true},
+            {"id": 7, "text": "Нерон", "isCorrect": false},
+            {"id": 8, "text": "Константин", "isCorrect": false}
           ],
-          "reward": 200,
+          "reward": 150,
           "difficulty": 2
         },
         {
           "id": 3,
-          "themeId": 1,
-          "text": "Какая битва считается решающей для падения Западной Римской империи?",
+          "text": "В каком году пала Западная Римская империя?",
           "answers": [
-            { "id": 1, "questionId": 3, "text": "Битва при Заме", "isCorrect": false },
-            { "id": 2, "questionId": 3, "text": "Битва при Акциуме", "isCorrect": false },
-            { "id": 3, "questionId": 3, "text": "Битва при Адрианополе", "isCorrect": true },
-            { "id": 4, "questionId": 3, "text": "Битва при Карфагене", "isCorrect": false }
+            {"id": 9, "text": "476 г. н.э.", "isCorrect": true},
+            {"id": 10, "text": "410 г. н.э.", "isCorrect": false},
+            {"id": 11, "text": "312 г. н.э.", "isCorrect": false},
+            {"id": 12, "text": "753 г. до н.э.", "isCorrect": false}
           ],
-          "reward": 500,
+          "reward": 200,
           "difficulty": 3
+        },
+        {
+          "id": 4,
+          "text": "Какое древнее государство изобрело бумагу?",
+          "answers": [
+            {"id": 13, "text": "Древний Китай", "isCorrect": true},
+            {"id": 14, "text": "Древний Египет", "isCorrect": false},
+            {"id": 15, "text": "Древняя Греция", "isCorrect": false},
+            {"id": 16, "text": "Древняя Индия", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 5,
+          "text": "Как назывался главный храм Афин?",
+          "answers": [
+            {"id": 17, "text": "Парфенон", "isCorrect": true},
+            {"id": 18, "text": "Колизей", "isCorrect": false},
+            {"id": 19, "text": "Пантеон", "isCorrect": false},
+            {"id": 20, "text": "Акрополь", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
+        {
+          "id": 6,
+          "text": "Кто был главным богом в древнегреческой мифологии?",
+          "answers": [
+            {"id": 21, "text": "Зевс", "isCorrect": true},
+            {"id": 22, "text": "Посейдон", "isCorrect": false},
+            {"id": 23, "text": "Аид", "isCorrect": false},
+            {"id": 24, "text": "Аполлон", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "text": "Как называлась письменность древних египтян?",
+          "answers": [
+            {"id": 25, "text": "Клинопись", "isCorrect": false},
+            {"id": 26, "text": "Иероглифы", "isCorrect": true},
+            {"id": 27, "text": "Алфавит", "isCorrect": false},
+            {"id": 28, "text": "Руны", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "text": "Кто победил в Пелопоннесской войне?",
+          "answers": [
+            {"id": 29, "text": "Афины", "isCorrect": false},
+            {"id": 30, "text": "Спарта", "isCorrect": true},
+            {"id": 31, "text": "Персия", "isCorrect": false},
+            {"id": 32, "text": "Македония", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 9,
+          "text": "Как назывался первый свод законов в истории?",
+          "answers": [
+            {"id": 33, "text": "Законы Ману", "isCorrect": false},
+            {"id": 34, "text": "Законы Драконта", "isCorrect": false},
+            {"id": 35, "text": "Законы Хаммурапи", "isCorrect": true},
+            {"id": 36, "text": "Римское право", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 10,
+          "text": "Какой древний город был разрушен извержением Везувия?",
+          "answers": [
+            {"id": 37, "text": "Помпеи", "isCorrect": true},
+            {"id": 38, "text": "Карфаген", "isCorrect": false},
+            {"id": 39, "text": "Троя", "isCorrect": false},
+            {"id": 40, "text": "Вавилон", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
         }
       ]
     },
     {
       "id": 2,
-      "name": "Наука",
+      "name": "Наука и Технологии",
       "questions": [
-        {
-          "id": 4,
-          "themeId": 2,
-          "text": "Кто изобрел телескоп?",
-          "answers": [
-            { "id": 1, "questionId": 4, "text": "Галилео Галилей", "isCorrect": true },
-            { "id": 2, "questionId": 4, "text": "Исаак Ньютон", "isCorrect": false },
-            { "id": 3, "questionId": 4, "text": "Йоханнес Кеплер", "isCorrect": false },
-            { "id": 4, "questionId": 4, "text": "Николай Коперник", "isCorrect": false }
-          ],
-          "reward": 100,
-          "difficulty": 1
-        },
-        {
-          "id": 5,
-          "themeId": 2,
-          "text": "Какой элемент периодической таблицы был открыт первым?",
-          "answers": [
-            { "id": 1, "questionId": 5, "text": "Гелий", "isCorrect": false },
-            { "id": 2, "questionId": 5, "text": "Водород", "isCorrect": true },
-            { "id": 3, "questionId": 5, "text": "Углерод", "isCorrect": false },
-            { "id": 4, "questionId": 5, "text": "Кислород", "isCorrect": false }
-          ],
-          "reward": 200,
-          "difficulty": 2
-        },
-        {
-          "id": 6,
-          "themeId": 2,
-          "text": "Какая теорема считается основой теории относительности?",
-          "answers": [
-            { "id": 1, "questionId": 6, "text": "Теорема Пифагора", "isCorrect": false },
-            { "id": 2, "questionId": 6, "text": "Теорема Эйнштейна", "isCorrect": true },
-            { "id": 3, "questionId": 6, "text": "Теорема Гаусса", "isCorrect": false },
-            { "id": 4, "questionId": 6, "text": "Теорема Ферма", "isCorrect": false }
-          ],
-          "reward": 500,
-          "difficulty": 3
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "География",
-      "questions": [
-        {
-          "id": 7,
-          "themeId": 3,
-          "text": "Какая самая большая страна по площади?",
-          "answers": [
-            { "id": 1, "questionId": 7, "text": "США", "isCorrect": false },
-            { "id": 2, "questionId": 7, "text": "Россия", "isCorrect": true },
-            { "id": 3, "questionId": 7, "text": "Китай", "isCorrect": false },
-            { "id": 4, "questionId": 7, "text": "Канада", "isCorrect": false }
-          ],
-          "reward": 100,
-          "difficulty": 1
-        },
-        {
-          "id": 8,
-          "themeId": 3,
-          "text": "Где находится самая высокая гора в мире?",
-          "answers": [
-            { "id": 1, "questionId": 8, "text": "Гималаи", "isCorrect": true },
-            { "id": 2, "questionId": 8, "text": "Альпы", "isCorrect": false },
-            { "id": 3, "questionId": 8, "text": "Кавказ", "isCorrect": false },
-            { "id": 4, "questionId": 8, "text": "Анды", "isCorrect": false }
-          ],
-          "reward": 200,
-          "difficulty": 2
-        },
-        {
-          "id": 9,
-          "themeId": 3,
-          "text": "Какая страна имеет самую длинную береговую линию?",
-          "answers": [
-            { "id": 1, "questionId": 9, "text": "Канада", "isCorrect": true },
-            { "id": 2, "questionId": 9, "text": "Австралия", "isCorrect": false },
-            { "id": 3, "questionId": 9, "text": "Россия", "isCorrect": false },
-            { "id": 4, "questionId": 9, "text": "США", "isCorrect": false }
-          ],
-          "reward": 500,
-          "difficulty": 3
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Литература",
-      "questions": [
-        {
-          "id": 10,
-          "themeId": 4,
-          "text": "Кто написал 'Войну и мир'?",
-          "answers": [
-            { "id": 1, "questionId": 10, "text": "Федор Достоевский", "isCorrect": false },
-            { "id": 2, "questionId": 10, "text": "Лев Толстой", "isCorrect": true },
-            { "id": 3, "questionId": 10, "text": "Александр Пушкин", "isCorrect": false },
-            { "id": 4, "questionId": 10, "text": "Антон Чехов", "isCorrect": false }
-          ],
-          "reward": 100,
-          "difficulty": 1
-        },
         {
           "id": 11,
-          "themeId": 4,
-          "text": "Какое произведение принадлежит Гомеру?",
+          "text": "Кто изобрел телефон?",
           "answers": [
-            { "id": 1, "questionId": 11, "text": "Илиада", "isCorrect": true },
-            { "id": 2, "questionId": 11, "text": "Божественная комедия", "isCorrect": false },
-            { "id": 3, "questionId": 11, "text": "Энеида", "isCorrect": false },
-            { "id": 4, "questionId": 11, "text": "Мифы о Греции", "isCorrect": false }
+            {"id": 41, "text": "Томас Эдисон", "isCorrect": false},
+            {"id": 42, "text": "Александр Грэхем Белл", "isCorrect": true},
+            {"id": 43, "text": "Никола Тесла", "isCorrect": false},
+            {"id": 44, "text": "Гульельмо Маркони", "isCorrect": false}
           ],
-          "reward": 200,
-          "difficulty": 2
+          "reward": 100,
+          "difficulty": 1
         },
         {
           "id": 12,
-          "themeId": 4,
-          "text": "Какое произведение написал Франц Кафка?",
+          "text": "Какой элемент имеет атомный номер 1?",
           "answers": [
-            { "id": 1, "questionId": 12, "text": "Превращение", "isCorrect": true },
-            { "id": 2, "questionId": 12, "text": "Над пропастью во ржи", "isCorrect": false },
-            { "id": 3, "questionId": 12, "text": "Мастер и Маргарита", "isCorrect": false },
-            { "id": 4, "questionId": 12, "text": "Зло в движении", "isCorrect": false }
+            {"id": 45, "text": "Гелий", "isCorrect": false},
+            {"id": 46, "text": "Кислород", "isCorrect": false},
+            {"id": 47, "text": "Водород", "isCorrect": true},
+            {"id": 48, "text": "Углерод", "isCorrect": false}
           ],
-          "reward": 500,
-          "difficulty": 3
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Мифология",
-      "questions": [
-        {
-          "id": 13,
-          "themeId": 5,
-          "text": "Кто был богом войны в Древней Греции?",
-          "answers": [
-            { "id": 1, "questionId": 13, "text": "Афина", "isCorrect": false },
-            { "id": 2, "questionId": 13, "text": "Зевс", "isCorrect": false },
-            { "id": 3, "questionId": 13, "text": "Арес", "isCorrect": true },
-            { "id": 4, "questionId": 13, "text": "Посейдон", "isCorrect": false }
-          ],
-          "reward": 100,
-          "difficulty": 1
-        },
-        {
-          "id": 14,
-          "themeId": 5,
-          "text": "Какой мифологический герой был превращен в ласточку?",
-          "answers": [
-            { "id": 1, "questionId": 14, "text": "Нарцисс", "isCorrect": false },
-            { "id": 2, "questionId": 14, "text": "Тесей", "isCorrect": false },
-            { "id": 3, "questionId": 14, "text": "Пигмалион", "isCorrect": false },
-            { "id": 4, "questionId": 14, "text": "Филипп", "isCorrect": true }
-          ],
-          "reward": 200,
+          "reward": 150,
           "difficulty": 2
         },
         {
-          "id": 15,
-          "themeId": 5,
-          "text": "Какая богиня считалась богиней любви в Древнем Риме?",
+          "id": 13,
+          "text": "Какая планета самая большая в Солнечной системе?",
           "answers": [
-            { "id": 1, "questionId": 15, "text": "Юнона", "isCorrect": false },
-            { "id": 2, "questionId": 15, "text": "Венера", "isCorrect": true },
-            { "id": 3, "questionId": 15, "text": "Минерва", "isCorrect": false },
-            { "id": 4, "questionId": 15, "text": "Церера", "isCorrect": false }
+            {"id": 49, "text": "Земля", "isCorrect": false},
+            {"id": 50, "text": "Юпитер", "isCorrect": true},
+            {"id": 51, "text": "Сатурн", "isCorrect": false},
+            {"id": 52, "text": "Марс", "isCorrect": false}
           ],
-          "reward": 500,
+          "reward": 200,
           "difficulty": 3
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Технологии",
-      "questions": [
+        },
+        {
+          "id": 14,
+          "text": "Как называется процесс деления клетки?",
+          "answers": [
+            {"id": 53, "text": "Митоз", "isCorrect": true},
+            {"id": 54, "text": "Мейоз", "isCorrect": false},
+            {"id": 55, "text": "Фотосинтез", "isCorrect": false},
+            {"id": 56, "text": "Окисление", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 15,
+          "text": "Какой ученый сформулировал теорию относительности?",
+          "answers": [
+            {"id": 57, "text": "Исаак Ньютон", "isCorrect": false},
+            {"id": 58, "text": "Альберт Эйнштейн", "isCorrect": true},
+            {"id": 59, "text": "Никола Тесла", "isCorrect": false},
+            {"id": 60, "text": "Стивен Хокинг", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
         {
           "id": 16,
-          "themeId": 6,
-          "text": "Кто изобрел первый компьютер?",
+          "text": "Какой газ преобладает в атмосфере Земли?",
           "answers": [
-            { "id": 1, "questionId": 16, "text": "Алан Тьюринг", "isCorrect": true },
-            { "id": 2, "questionId": 16, "text": "Чарльз Бэббидж", "isCorrect": false },
-            { "id": 3, "questionId": 16, "text": "Говард Хьюз", "isCorrect": false },
-            { "id": 4, "questionId": 16, "text": "Томас Эдисон", "isCorrect": false }
+            {"id": 61, "text": "Кислород", "isCorrect": false},
+            {"id": 62, "text": "Азот", "isCorrect": true},
+            {"id": 63, "text": "Углекислый газ", "isCorrect": false},
+            {"id": 64, "text": "Водород", "isCorrect": false}
           ],
           "reward": 100,
           "difficulty": 1
         },
         {
           "id": 17,
-          "themeId": 6,
-          "text": "Какое устройство является первыми настоящими компьютерами?",
+          "text": "Как называется самая длинная река в мире?",
           "answers": [
-            { "id": 1, "questionId": 17, "text": "ENIAC", "isCorrect": true },
-            { "id": 2, "questionId": 17, "text": "UNIVAC", "isCorrect": false },
-            { "id": 3, "questionId": 17, "text": "IBM 360", "isCorrect": false },
-            { "id": 4, "questionId": 17, "text": "MAC", "isCorrect": false }
+            {"id": 65, "text": "Амазонка", "isCorrect": true},
+            {"id": 66, "text": "Нил", "isCorrect": false},
+            {"id": 67, "text": "Янцзы", "isCorrect": false},
+            {"id": 68, "text": "Миссисипи", "isCorrect": false}
           ],
-          "reward": 200,
+          "reward": 150,
           "difficulty": 2
         },
         {
           "id": 18,
-          "themeId": 6,
-          "text": "Какая компания изобрела первый смартфон?",
+          "text": "Какой элемент обозначается символом 'Au'?",
           "answers": [
-            { "id": 1, "questionId": 18, "text": "Apple", "isCorrect": false },
-            { "id": 2, "questionId": 18, "text": "Samsung", "isCorrect": false },
-            { "id": 3, "questionId": 18, "text": "Nokia", "isCorrect": true },
-            { "id": 4, "questionId": 18, "text": "Motorola", "isCorrect": false }
+            {"id": 69, "text": "Серебро", "isCorrect": false},
+            {"id": 70, "text": "Алюминий", "isCorrect": false},
+            {"id": 71, "text": "Золото", "isCorrect": true},
+            {"id": 72, "text": "Аргон", "isCorrect": false}
           ],
-          "reward": 500,
+          "reward": 200,
           "difficulty": 3
+        },
+        {
+          "id": 19,
+          "text": "Как называется процесс превращения жидкости в газ?",
+          "answers": [
+            {"id": 73, "text": "Конденсация", "isCorrect": false},
+            {"id": 74, "text": "Испарение", "isCorrect": true},
+            {"id": 75, "text": "Сублимация", "isCorrect": false},
+            {"id": 76, "text": "Кристаллизация", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 20,
+          "text": "Какой год считается годом рождения Интернета?",
+          "answers": [
+            {"id": 77, "text": "1969", "isCorrect": true},
+            {"id": 78, "text": "1983", "isCorrect": false},
+            {"id": 79, "text": "1991", "isCorrect": false},
+            {"id": 80, "text": "1975", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
         }
       ]
     },
     {
-      "id": 7,
-      "name": "Спорт",
+      "id": 3,
+      "name": "Искусство и Литература",
       "questions": [
         {
-          "id": 19,
-          "themeId": 7,
-          "text": "Кто выиграл чемпионат мира по футболу 2018?",
+          "id": 21,
+          "text": "Кто написал 'Ромео и Джульетту'?",
           "answers": [
-            { "id": 1, "questionId": 19, "text": "Франция", "isCorrect": true },
-            { "id": 2, "questionId": 19, "text": "Хорватия", "isCorrect": false },
-            { "id": 3, "questionId": 19, "text": "Германия", "isCorrect": false },
-            { "id": 4, "questionId": 19, "text": "Бразилия", "isCorrect": false }
+            {"id": 81, "text": "Чарльз Диккенс", "isCorrect": false},
+            {"id": 82, "text": "Уильям Шекспир", "isCorrect": true},
+            {"id": 83, "text": "Джейн Остин", "isCorrect": false},
+            {"id": 84, "text": "Марк Твен", "isCorrect": false}
           ],
           "reward": 100,
           "difficulty": 1
         },
         {
-          "id": 20,
-          "themeId": 7,
-          "text": "Сколько раз Россия выигрывала олимпийские игры?",
+          "id": 22,
+          "text": "Какой художник написал 'Мону Лизу'?",
           "answers": [
-            { "id": 1, "questionId": 20, "text": "1 раз", "isCorrect": false },
-            { "id": 2, "questionId": 20, "text": "2 раза", "isCorrect": false },
-            { "id": 3, "questionId": 20, "text": "3 раза", "isCorrect": false },
-            { "id": 4, "questionId": 20, "text": "0 раз", "isCorrect": true }
+            {"id": 85, "text": "Пабло Пикассо", "isCorrect": false},
+            {"id": 86, "text": "Винсент ван Гог", "isCorrect": false},
+            {"id": 87, "text": "Леонардо да Винчи", "isCorrect": true},
+            {"id": 88, "text": "Микеланджело", "isCorrect": false}
           ],
-          "reward": 200,
+          "reward": 150,
           "difficulty": 2
         },
         {
-          "id": 21,
-          "themeId": 7,
-          "text": "Кто стал лучшим бомбардиром чемпионата мира по футболу 2018?",
+          "id": 23,
+          "text": "В каком веке жил Моцарт?",
           "answers": [
-            { "id": 1, "questionId": 21, "text": "Ромелу Лукаку", "isCorrect": false },
-            { "id": 2, "questionId": 21, "text": "Килиан Мбаппе", "isCorrect": false },
-            { "id": 3, "questionId": 21, "text": "Гарри Кейн", "isCorrect": true },
-            { "id": 4, "questionId": 21, "text": "Лионель Месси", "isCorrect": false }
+            {"id": 89, "text": "XVII век", "isCorrect": false},
+            {"id": 90, "text": "XVIII век", "isCorrect": true},
+            {"id": 91, "text": "XIX век", "isCorrect": false},
+            {"id": 92, "text": "XX век", "isCorrect": false}
           ],
-          "reward": 500,
+          "reward": 200,
           "difficulty": 3
+        },
+        {
+          "id": 24,
+          "text": "Какой стиль живописи представлял Клод Моне?",
+          "answers": [
+            {"id": 93, "text": "Импрессионизм", "isCorrect": true},
+            {"id": 94, "text": "Кубизм", "isCorrect": false},
+            {"id": 95, "text": "Сюрреализм", "isCorrect": false},
+            {"id": 96, "text": "Экспрессионизм", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 25,
+          "text": "Кто автор 'Войны и мира'?",
+          "answers": [
+            {"id": 97, "text": "Федор Достоевский", "isCorrect": false},
+            {"id": 98, "text": "Лев Толстой", "isCorrect": true},
+            {"id": 99, "text": "Антон Чехов", "isCorrect": false},
+            {"id": 100, "text": "Иван Тургенев", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
+        {
+          "id": 26,
+          "text": "Какой композитор написал 'Лунную сонату'?",
+          "answers": [
+            {"id": 101, "text": "Вольфганг Амадей Моцарт", "isCorrect": false},
+            {"id": 102, "text": "Людвиг ван Бетховен", "isCorrect": true},
+            {"id": 103, "text": "Иоганн Себастьян Бах", "isCorrect": false},
+            {"id": 104, "text": "Фредерик Шопен", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 27,
+          "text": "Какой писатель создал Шерлока Холмса?",
+          "answers": [
+            {"id": 105, "text": "Агата Кристи", "isCorrect": false},
+            {"id": 106, "text": "Артур Конан Дойл", "isCorrect": true},
+            {"id": 107, "text": "Чарльз Диккенс", "isCorrect": false},
+            {"id": 108, "text": "Дж. Р. Р. Толкин", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 28,
+          "text": "Какой художник отрезал себе ухо?",
+          "answers": [
+            {"id": 109, "text": "Пабло Пикассо", "isCorrect": false},
+            {"id": 110, "text": "Сальвадор Дали", "isCorrect": false},
+            {"id": 111, "text": "Винсент ван Гог", "isCorrect": true},
+            {"id": 112, "text": "Клод Моне", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 29,
+          "text": "Какой роман написал Джордж Оруэлл?",
+          "answers": [
+            {"id": 113, "text": "451 градус по Фаренгейту", "isCorrect": false},
+            {"id": 114, "text": "1984", "isCorrect": true},
+            {"id": 115, "text": "Скотный двор", "isCorrect": false},
+            {"id": 116, "text": "Повелитель мух", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 30,
+          "text": "Какой стиль архитектуры представлен Нотр-Дамом в Париже?",
+          "answers": [
+            {"id": 117, "text": "Барокко", "isCorrect": false},
+            {"id": 118, "text": "Романский", "isCorrect": false},
+            {"id": 119, "text": "Готика", "isCorrect": true},
+            {"id": 120, "text": "Ренессанс", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "География",
+      "questions": [
+        {
+          "id": 31,
+          "text": "Какая самая большая страна по площади?",
+          "answers": [
+            {"id": 121, "text": "Китай", "isCorrect": false},
+            {"id": 122, "text": "США", "isCorrect": false},
+            {"id": 123, "text": "Россия", "isCorrect": true},
+            {"id": 124, "text": "Канада", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 32,
+          "text": "Какая река самая длинная в Африке?",
+          "answers": [
+            {"id": 125, "text": "Конго", "isCorrect": false},
+            {"id": 126, "text": "Нил", "isCorrect": true},
+            {"id": 127, "text": "Нигер", "isCorrect": false},
+            {"id": 128, "text": "Замбези", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 33,
+          "text": "В какой стране находится Мачу-Пикчу?",
+          "answers": [
+            {"id": 129, "text": "Мексика", "isCorrect": false},
+            {"id": 130, "text": "Перу", "isCorrect": true},
+            {"id": 131, "text": "Боливия", "isCorrect": false},
+            {"id": 132, "text": "Чили", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 34,
+          "text": "Какой океан самый большой?",
+          "answers": [
+            {"id": 133, "text": "Атлантический", "isCorrect": false},
+            {"id": 134, "text": "Индийский", "isCorrect": false},
+            {"id": 135, "text": "Тихий", "isCorrect": true},
+            {"id": 136, "text": "Северный Ледовитый", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 35,
+          "text": "Какая столица Австралии?",
+          "answers": [
+            {"id": 137, "text": "Сидней", "isCorrect": false},
+            {"id": 138, "text": "Мельбурн", "isCorrect": false},
+            {"id": 139, "text": "Канберра", "isCorrect": true},
+            {"id": 140, "text": "Брисбен", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
+        {
+          "id": 36,
+          "text": "Какое самое глубокое озеро в мире?",
+          "answers": [
+            {"id": 141, "text": "Каспийское море", "isCorrect": false},
+            {"id": 142, "text": "Байкал", "isCorrect": true},
+            {"id": 143, "text": "Танганьика", "isCorrect": false},
+            {"id": 144, "text": "Виктория", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 37,
+          "text": "В какой стране находится пустыня Сахара?",
+          "answers": [
+            {"id": 145, "text": "Египет", "isCorrect": false},
+            {"id": 146, "text": "Алжир", "isCorrect": true},
+            {"id": 147, "text": "Саудовская Аравия", "isCorrect": false},
+            {"id": 148, "text": "ЮАР", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 38,
+          "text": "Какой пролив разделяет Европу и Азию?",
+          "answers": [
+            {"id": 149, "text": "Гибралтарский", "isCorrect": false},
+            {"id": 150, "text": "Босфор", "isCorrect": true},
+            {"id": 151, "text": "Дарданеллы", "isCorrect": false},
+            {"id": 152, "text": "Магелланов", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 39,
+          "text": "Какая самая высокая гора в мире?",
+          "answers": [
+            {"id": 153, "text": "К2", "isCorrect": false},
+            {"id": 154, "text": "Эверест", "isCorrect": true},
+            {"id": 155, "text": "Килиманджаро", "isCorrect": false},
+            {"id": 156, "text": "Аконкагуа", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 40,
+          "text": "Какой город является столицей Канады?",
+          "answers": [
+            {"id": 157, "text": "Торонто", "isCorrect": false},
+            {"id": 158, "text": "Ванкувер", "isCorrect": false},
+            {"id": 159, "text": "Оттава", "isCorrect": true},
+            {"id": 160, "text": "Монреаль", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Спорт",
+      "questions": [
+        {
+          "id": 41,
+          "text": "В каком виде спорта используется шайба?",
+          "answers": [
+            {"id": 161, "text": "Футбол", "isCorrect": false},
+            {"id": 162, "text": "Баскетбол", "isCorrect": false},
+            {"id": 163, "text": "Хоккей", "isCorrect": true},
+            {"id": 164, "text": "Волейбол", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 42,
+          "text": "Какой теннисист выиграл больше всего турниров Большого шлема?",
+          "answers": [
+            {"id": 165, "text": "Роджер Федерер", "isCorrect": false},
+            {"id": 166, "text": "Рафаэль Надаль", "isCorrect": false},
+            {"id": 167, "text": "Новак Джокович", "isCorrect": true},
+            {"id": 168, "text": "Пит Сампрас", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 43,
+          "text": "В каком году состоялись первые современные Олимпийские игры?",
+          "answers": [
+            {"id": 169, "text": "1896", "isCorrect": true},
+            {"id": 170, "text": "1900", "isCorrect": false},
+            {"id": 171, "text": "1924", "isCorrect": false},
+            {"id": 172, "text": "1936", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 44,
+          "text": "Какая страна выиграла чемпионат мира по футболу в 2018 году?",
+          "answers": [
+            {"id": 173, "text": "Германия", "isCorrect": false},
+            {"id": 174, "text": "Бразилия", "isCorrect": false},
+            {"id": 175, "text": "Франция", "isCorrect": true},
+            {"id": 176, "text": "Испания", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 45,
+          "text": "Кто является самым титулованным олимпийским чемпионом?",
+          "answers": [
+            {"id": 177, "text": "Майкл Фелпс", "isCorrect": true},
+            {"id": 178, "text": "Усэйн Болт", "isCorrect": false},
+            {"id": 179, "text": "Лариса Латынина", "isCorrect": false},
+            {"id": 180, "text": "Карл Льюис", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
+        {
+          "id": 46,
+          "text": "Какой клуб выиграл больше всего титулов НБА?",
+          "answers": [
+            {"id": 181, "text": "Лос-Анджелес Лейкерс", "isCorrect": false},
+            {"id": 182, "text": "Бостон Селтикс", "isCorrect": true},
+            {"id": 183, "text": "Чикаго Буллз", "isCorrect": false},
+            {"id": 184, "text": "Голден Стэйт Уорриорз", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 47,
+          "text": "В каком виде спорта известен Тайгер Вудс?",
+          "answers": [
+            {"id": 185, "text": "Теннис", "isCorrect": false},
+            {"id": 186, "text": "Гольф", "isCorrect": true},
+            {"id": 187, "text": "Бокс", "isCorrect": false},
+            {"id": 188, "text": "Бейсбол", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 48,
+          "text": "Какой спортсмен получил прозвище 'Черная пантера'?",
+          "answers": [
+            {"id": 189, "text": "Пеле", "isCorrect": false},
+            {"id": 190, "text": "Мухаммед Али", "isCorrect": false},
+            {"id": 191, "text": "Усэйн Болт", "isCorrect": false},
+            {"id": 192, "text": "Валерий Харламов", "isCorrect": true}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 49,
+          "text": "В каком году впервые прошли зимние Олимпийские игры?",
+          "answers": [
+            {"id": 193, "text": "1920", "isCorrect": false},
+            {"id": 194, "text": "1924", "isCorrect": true},
+            {"id": 195, "text": "1932", "isCorrect": false},
+            {"id": 196, "text": "1948", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 50,
+          "text": "Какая страна является родиной дзюдо?",
+          "answers": [
+            {"id": 197, "text": "Китай", "isCorrect": false},
+            {"id": 198, "text": "Корея", "isCorrect": false},
+            {"id": 199, "text": "Япония", "isCorrect": true},
+            {"id": 200, "text": "Таиланд", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Кино и Телевидение",
+      "questions": [
+        {
+          "id": 51,
+          "text": "Кто сыграл главную роль в 'Титанике'?",
+          "answers": [
+            {"id": 201, "text": "Брэд Питт", "isCorrect": false},
+            {"id": 202, "text": "Леонардо ДиКаприо", "isCorrect": true},
+            {"id": 203, "text": "Том Круз", "isCorrect": false},
+            {"id": 204, "text": "Джонни Депп", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 52,
+          "text": "Какой фильм получил больше всего Оскаров?",
+          "answers": [
+            {"id": 205, "text": "Титаник", "isCorrect": false},
+            {"id": 206, "text": "Властелин колец: Возвращение короля", "isCorrect": true},
+            {"id": 207, "text": "Бен-Гур", "isCorrect": false},
+            {"id": 208, "text": "Аватар", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 53,
+          "text": "Кто режиссер фильма 'Крестный отец'?",
+          "answers": [
+            {"id": 209, "text": "Мартин Скорсезе", "isCorrect": false},
+            {"id": 210, "text": "Фрэнсис Форд Коппола", "isCorrect": true},
+            {"id": 211, "text": "Стивен Спилберг", "isCorrect": false},
+            {"id": 212, "text": "Квентин Тарантино", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 54,
+          "text": "Какой актер сыграл Железного человека?",
+          "answers": [
+            {"id": 213, "text": "Крис Хемсворт", "isCorrect": false},
+            {"id": 214, "text": "Роберт Дауни-младший", "isCorrect": true},
+            {"id": 215, "text": "Крис Эванс", "isCorrect": false},
+            {"id": 216, "text": "Марк Руффало", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 55,
+          "text": "Какой фильм стал самым кассовым в истории?",
+          "answers": [
+            {"id": 217, "text": "Аватар", "isCorrect": true},
+            {"id": 218, "text": "Мстители: Финал", "isCorrect": false},
+            {"id": 219, "text": "Титаник", "isCorrect": false},
+            {"id": 220, "text": "Звездные войны: Пробуждение силы", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
+        {
+          "id": 56,
+          "text": "Какой сериал является самым длинным в истории?",
+          "answers": [
+            {"id": 221, "text": "Доктор Кто", "isCorrect": false},
+            {"id": 222, "text": "Симсоны", "isCorrect": true},
+            {"id": 223, "text": "Друзья", "isCorrect": false},
+            {"id": 224, "text": "Сверхъестественное", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 57,
+          "text": "Кто сыграл Джокера в 'Темном рыцаре'?",
+          "answers": [
+            {"id": 225, "text": "Джек Николсон", "isCorrect": false},
+            {"id": 226, "text": "Хоакин Феникс", "isCorrect": false},
+            {"id": 227, "text": "Хит Леджер", "isCorrect": true},
+            {"id": 228, "text": "Джаред Лето", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 58,
+          "text": "Какой фильм снят по комиксам Marvel?",
+          "answers": [
+            {"id": 229, "text": "Человек-паук", "isCorrect": true},
+            {"id": 230, "text": "Бэтмен", "isCorrect": false},
+            {"id": 231, "text": "Супермен", "isCorrect": false},
+            {"id": 232, "text": "Хранители", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 59,
+          "text": "Кто режиссер 'Психо'?",
+          "answers": [
+            {"id": 233, "text": "Стэнли Кубрик", "isCorrect": false},
+            {"id": 234, "text": "Альфред Хичкок", "isCorrect": true},
+            {"id": 235, "text": "Орсон Уэллс", "isCorrect": false},
+            {"id": 236, "text": "Роман Полански", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 60,
+          "text": "Какой фильм получил первый Оскар за лучший фильм?",
+          "answers": [
+            {"id": 237, "text": "Унесенные ветром", "isCorrect": false},
+            {"id": 238, "text": "Крылья", "isCorrect": true},
+            {"id": 239, "text": "Касабланка", "isCorrect": false},
+            {"id": 240, "text": "Великий диктатор", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Естественные Науки",
+      "questions": [
+        {
+          "id": 61,
+          "text": "Какой газ растения поглощают при фотосинтезе?",
+          "answers": [
+            {"id": 241, "text": "Кислород", "isCorrect": false},
+            {"id": 242, "text": "Углекислый газ", "isCorrect": true},
+            {"id": 243, "text": "Азот", "isCorrect": false},
+            {"id": 244, "text": "Водород", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 62,
+          "text": "Какая самая твердая природная субстанция на Земле?",
+          "answers": [
+            {"id": 245, "text": "Сталь", "isCorrect": false},
+            {"id": 246, "text": "Алмаз", "isCorrect": true},
+            {"id": 247, "text": "Кварц", "isCorrect": false},
+            {"id": 248, "text": "Гранит", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 63,
+          "text": "Какой элемент обозначается символом 'Hg'?",
+          "answers": [
+            {"id": 249, "text": "Золото", "isCorrect": false},
+            {"id": 250, "text": "Серебро", "isCorrect": false},
+            {"id": 251, "text": "Ртуть", "isCorrect": true},
+            {"id": 252, "text": "Гелий", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 64,
+          "text": "Как называется процесс превращения воды в пар?",
+          "answers": [
+            {"id": 253, "text": "Конденсация", "isCorrect": false},
+            {"id": 254, "text": "Испарение", "isCorrect": true},
+            {"id": 255, "text": "Сублимация", "isCorrect": false},
+            {"id": 256, "text": "Кристаллизация", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 65,
+          "text": "Какой ученый открыл закон всемирного тяготения?",
+          "answers": [
+            {"id": 257, "text": "Альберт Эйнштейн", "isCorrect": false},
+            {"id": 258, "text": "Исаак Ньютон", "isCorrect": true},
+            {"id": 259, "text": "Галилео Галилей", "isCorrect": false},
+            {"id": 260, "text": "Никола Тесла", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
+        {
+          "id": 66,
+          "text": "Какой орган человека производит инсулин?",
+          "answers": [
+            {"id": 261, "text": "Печень", "isCorrect": false},
+            {"id": 262, "text": "Поджелудочная железа", "isCorrect": true},
+            {"id": 263, "text": "Почки", "isCorrect": false},
+            {"id": 264, "text": "Селезенка", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 67,
+          "text": "Как называется самая большая часть человеческого мозга?",
+          "answers": [
+            {"id": 265, "text": "Мозжечок", "isCorrect": false},
+            {"id": 266, "text": "Большие полушария", "isCorrect": true},
+            {"id": 267, "text": "Ствол мозга", "isCorrect": false},
+            {"id": 268, "text": "Таламус", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 68,
+          "text": "Какой газ преобладает в атмосфере Солнца?",
+          "answers": [
+            {"id": 269, "text": "Гелий", "isCorrect": false},
+            {"id": 270, "text": "Водород", "isCorrect": true},
+            {"id": 271, "text": "Кислород", "isCorrect": false},
+            {"id": 272, "text": "Азот", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 69,
+          "text": "Как называется наука о животных?",
+          "answers": [
+            {"id": 273, "text": "Ботаника", "isCorrect": false},
+            {"id": 274, "text": "Зоология", "isCorrect": true},
+            {"id": 275, "text": "Геология", "isCorrect": false},
+            {"id": 276, "text": "Анатомия", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 70,
+          "text": "Какой элемент является основным в органической химии?",
+          "answers": [
+            {"id": 277, "text": "Кислород", "isCorrect": false},
+            {"id": 278, "text": "Углерод", "isCorrect": true},
+            {"id": 279, "text": "Водород", "isCorrect": false},
+            {"id": 280, "text": "Азот", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
         }
       ]
     }
