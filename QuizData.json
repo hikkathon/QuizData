@@ -1,5 +1,5 @@
 {
-  "countQuestion": 100,
+  "countQuestion": 110,
   "countTheme": 10,
   "themes": [
     {
@@ -3511,6 +3511,436 @@
           ],
           "reward": 550,
           "difficulty": 10
+        },
+        {
+            "id": 101,
+            "text": {
+              "ru": "Как называется студия, создавшая 'Наруто' и 'Блич'?",
+              "en": "Which studio produced 'Naruto' and 'Bleach'?"
+            },
+            "answers": [
+              {
+                "id": 401,
+                "text": {
+                  "ru": "Madhouse",
+                  "en": "Madhouse"
+                },
+                "isCorrect": false
+              },
+              {
+                "id": 402,
+                "text": {
+                  "ru": "Pierrot",
+                  "en": "Pierrot"
+                },
+                "isCorrect": true
+              },
+              {
+                "id": 403,
+                "text": {
+                  "ru": "Bones",
+                  "en": "Bones"
+                },
+                "isCorrect": false
+              },
+              {
+                "id": 404,
+                "text": {
+                  "ru": "Sunrise",
+                  "en": "Sunrise"
+                },
+                "isCorrect": false
+              }
+            ],
+            "reward": 600,
+            "difficulty": 11
+          },
+        {
+          "id": 102,
+          "text": {
+            "ru": "Какой жанр аниме фокусируется на романтических отношениях?",
+            "en": "Which anime genre focuses on romantic relationships?"
+          },
+          "answers": [
+            {
+              "id": 405,
+              "text": {
+                "ru": "Сёнэн",
+                "en": "Shonen"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 406,
+              "text": {
+                "ru": "Сёдзё",
+                "en": "Shojo"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 407,
+              "text": {
+                "ru": "Сэйнэн",
+                "en": "Seinen"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 408,
+              "text": {
+                "ru": "Меха",
+                "en": "Mecha"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 650,
+          "difficulty": 12
+        },
+        {
+          "id": 103,
+          "text": {
+            "ru": "Кто написал оригинальную мангу 'Fullmetal Alchemist'?",
+            "en": "Who wrote the original 'Fullmetal Alchemist' manga?"
+          },
+          "answers": [
+            {
+              "id": 409,
+              "text": {
+                "ru": "Хиро Масима",
+                "en": "Hiro Mashima"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 410,
+              "text": {
+                "ru": "Хирому Аракава",
+                "en": "Hiromu Arakawa"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 411,
+              "text": {
+                "ru": "Кэнтаро Миура",
+                "en": "Kentaro Miura"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 412,
+              "text": {
+                "ru": "Тайто Кубо",
+                "en": "Tite Kubo"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 700,
+          "difficulty": 13
+        },
+        {
+          "id": 104,
+          "text": {
+            "ru": "Как называется аниме-адаптация игры 'Cyberpunk 2077'?",
+            "en": "What is the anime adaptation of 'Cyberpunk 2077' called?"
+          },
+          "answers": [
+            {
+              "id": 413,
+              "text": {
+                "ru": "Cyberpunk: Edge Runners",
+                "en": "Cyberpunk: Edgerunners"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 414,
+              "text": {
+                "ru": "Cyberpunk: Arasaka",
+                "en": "Cyberpunk: Arasaka"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 415,
+              "text": {
+                "ru": "Cyberpunk: Night City",
+                "en": "Cyberpunk: Night City"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 416,
+              "text": {
+                "ru": "Cyberpunk: 2077",
+                "en": "Cyberpunk: 2077"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 750,
+          "difficulty": 14
+        },
+        {
+          "id": 105,
+          "text": {
+            "ru": "Какой сезон аниме 'Demon Slayer' посвящен Квартиру Развлечений?",
+            "en": "Which season of 'Demon Slayer' focuses on the Entertainment District?"
+          },
+          "answers": [
+            {
+              "id": 417,
+              "text": {
+                "ru": "Первый сезон",
+                "en": "Season 1"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 418,
+              "text": {
+                "ru": "Бесконечный поезд",
+                "en": "Mugen Train"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 419,
+              "text": {
+                "ru": "Квартал Развлечений",
+                "en": "Entertainment District"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 420,
+              "text": {
+                "ru": "Деревня кузнецов",
+                "en": "Swordsmith Village"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 800,
+          "difficulty": 15
+        },
+        {
+          "id": 106,
+          "text": {
+            "ru": "Как зовут создателя 'Neon Genesis Evangelion'?",
+            "en": "What is the name of the creator of 'Neon Genesis Evangelion'?"
+          },
+          "answers": [
+            {
+              "id": 421,
+              "text": {
+                "ru": "Макото Синкай",
+                "en": "Makoto Shinkai"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 422,
+              "text": {
+                "ru": "Хидеаки Анно",
+                "en": "Hideaki Anno"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 423,
+              "text": {
+                "ru": "Сатоши Кон",
+                "en": "Satoshi Kon"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 424,
+              "text": {
+                "ru": "Горо Миядзаки",
+                "en": "Goro Miyazaki"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 850,
+          "difficulty": 16
+        },
+        {
+          "id": 107,
+          "text": {
+            "ru": "Какое аниме получило премию 'Аниме года' на Crunchyroll Awards в 2023?",
+            "en": "Which anime won 'Anime of the Year' at Crunchyroll Awards in 2023?"
+          },
+          "answers": [
+            {
+              "id": 425,
+              "text": {
+                "ru": "Chainsaw Man",
+                "en": "Chainsaw Man"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 426,
+              "text": {
+                "ru": "Spy x Family",
+                "en": "Spy x Family"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 427,
+              "text": {
+                "ru": "Cyberpunk: Edgerunners",
+                "en": "Cyberpunk: Edgerunners"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 428,
+              "text": {
+                "ru": "Demon Slayer: Entertainment District Arc",
+                "en": "Demon Slayer: Entertainment District Arc"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 900,
+          "difficulty": 17
+        },
+        {
+          "id": 108,
+          "text": {
+            "ru": "Какой фильм Хаяо Миядзаки вышел в 2023 году?",
+            "en": "Which Hayao Miyazaki film was released in 2023?"
+          },
+          "answers": [
+            {
+              "id": 429,
+              "text": {
+                "ru": "Мальчик и птица",
+                "en": "The Boy and the Heron"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 430,
+              "text": {
+                "ru": "Ветер крепчает",
+                "en": "The Wind Rises"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 431,
+              "text": {
+                "ru": "Ходячий замок",
+                "en": "Howl's Moving Castle"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 432,
+              "text": {
+                "ru": "Рыбка Поньо",
+                "en": "Ponyo"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 950,
+          "difficulty": 18
+        },
+        {
+          "id": 109,
+          "text": {
+            "ru": "Как называется техника в 'Hunter x Hunter', позволяющая использовать жизненную энергию?",
+            "en": "What is the technique in 'Hunter x Hunter' that uses life energy called?"
+          },
+          "answers": [
+            {
+              "id": 433,
+              "text": {
+                "ru": "Ки",
+                "en": "Ki"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 434,
+              "text": {
+                "ru": "Нэн",
+                "en": "Nen"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 435,
+              "text": {
+                "ru": "Чакра",
+                "en": "Chakra"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 436,
+              "text": {
+                "ru": "Хаки",
+                "en": "Haki"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 1000,
+          "difficulty": 19
+        },
+        {
+          "id": 110,
+          "text": {
+            "ru": "Какое аниме адаптировало мангу, созданную автором 'Death Note'?",
+            "en": "Which anime adapts a manga by the creator of 'Death Note'?"
+          },
+          "answers": [
+            {
+              "id": 437,
+              "text": {
+                "ru": "Platinum End",
+                "en": "Platinum End"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 438,
+              "text": {
+                "ru": "Bakuman",
+                "en": "Bakuman"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 439,
+              "text": {
+                "ru": "Monster",
+                "en": "Monster"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 440,
+              "text": {
+                "ru": "Psycho-Pass",
+                "en": "Psycho-Pass"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 1050,
+          "difficulty": 20
         }
       ]
     },
