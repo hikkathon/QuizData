@@ -1,6 +1,6 @@
 {
-  "countQuestion": 70,
-  "countTheme": 7,
+  "countQuestion": 100,
+  "countTheme": 10,
   "themes": [
     {
       "id": 1,
@@ -3066,6 +3066,1323 @@
               "text": {
                 "ru": "Дэшил Хэммет",
                 "en": "Dashiell Hammett"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 550,
+          "difficulty": 10
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": {
+        "ru": "Аниме",
+        "en": "Anime"
+      },
+      "questions": [
+        {
+          "id": 71,
+          "text": {
+            "ru": "Как зовут главного героя аниме 'Наруто'?",
+            "en": "What is the name of the main character in 'Naruto'?"
+          },
+          "answers": [
+            {
+              "id": 281,
+              "text": {
+                "ru": "Наруто Узумаки",
+                "en": "Naruto Uzumaki"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 282,
+              "text": {
+                "ru": "Саске Учиха",
+                "en": "Sasuke Uchiha"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 283,
+              "text": {
+                "ru": "Какаши Хатаке",
+                "en": "Kakashi Hatake"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 284,
+              "text": {
+                "ru": "Итачи Учиха",
+                "en": "Itachi Uchiha"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 72,
+          "text": {
+            "ru": "Какое аниме стало самым кассовым фильмом в Японии в 2020 году?",
+            "en": "Which anime became the highest-grossing film in Japan in 2020?"
+          },
+          "answers": [
+            {
+              "id": 285,
+              "text": {
+                "ru": "Атака Титанов",
+                "en": "Attack on Titan"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 286,
+              "text": {
+                "ru": "Демон Слейер: Поезд Бесконечный",
+                "en": "Demon Slayer: Mugen Train"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 287,
+              "text": {
+                "ru": "Твоё имя",
+                "en": "Your Name"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 288,
+              "text": {
+                "ru": "Одинокий нападающий",
+                "en": "The Promised Neverland"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 73,
+          "text": {
+            "ru": "Кто является создателем 'One Piece'?",
+            "en": "Who is the creator of 'One Piece'?"
+          },
+          "answers": [
+            {
+              "id": 289,
+              "text": {
+                "ru": "Масаси Кишимото",
+                "en": "Masashi Kishimoto"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 290,
+              "text": {
+                "ru": "Эйитиро Ода",
+                "en": "Eiichiro Oda"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 291,
+              "text": {
+                "ru": "Хаяо Миядзаки",
+                "en": "Hayao Miyazaki"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 292,
+              "text": {
+                "ru": "Тайто Кубо",
+                "en": "Tite Kubo"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 74,
+          "text": {
+            "ru": "Как называется техника превращения Сайянов в 'Dragon Ball Z'?",
+            "en": "What is the transformation technique of Saiyans called in 'Dragon Ball Z'?"
+          },
+          "answers": [
+            {
+              "id": 293,
+              "text": {
+                "ru": "Банкай",
+                "en": "Bankai"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 294,
+              "text": {
+                "ru": "Супер Сайян",
+                "en": "Super Saiyan"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 295,
+              "text": {
+                "ru": "Режим Бога",
+                "en": "God Mode"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 296,
+              "text": {
+                "ru": "Девять-хвостый",
+                "en": "Nine-Tails"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 75,
+          "text": {
+            "ru": "Какая студия создала 'Атаку Титанов'?",
+            "en": "Which studio created 'Attack on Titan'?"
+          },
+          "answers": [
+            {
+              "id": 297,
+              "text": {
+                "ru": "Toei Animation",
+                "en": "Toei Animation"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 298,
+              "text": {
+                "ru": "Wit Studio",
+                "en": "Wit Studio"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 299,
+              "text": {
+                "ru": "Studio Ghibli",
+                "en": "Studio Ghibli"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 300,
+              "text": {
+                "ru": "Bones",
+                "en": "Bones"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
+        {
+          "id": 76,
+          "text": {
+            "ru": "Как зовут главного героя 'Тетради смерти'?",
+            "en": "What is the name of the main character in 'Death Note'?"
+          },
+          "answers": [
+            {
+              "id": 301,
+              "text": {
+                "ru": "Лайт Ягами",
+                "en": "Light Yagami"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 302,
+              "text": {
+                "ru": "Л",
+                "en": "L"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 303,
+              "text": {
+                "ru": "Рюк",
+                "en": "Ryuk"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 304,
+              "text": {
+                "ru": "Миса Амане",
+                "en": "Misa Amane"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 350,
+          "difficulty": 6
+        },
+        {
+          "id": 77,
+          "text": {
+            "ru": "Какое аниме получило 'Аниме года' на Crunchyroll Awards в 2021?",
+            "en": "Which anime won 'Anime of the Year' at Crunchyroll Awards in 2021?"
+          },
+          "answers": [
+            {
+              "id": 305,
+              "text": {
+                "ru": "Демон Слейер",
+                "en": "Demon Slayer"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 306,
+              "text": {
+                "ru": "ДжуДжуцу Кайсен",
+                "en": "Jujutsu Kaisen"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 307,
+              "text": {
+                "ru": "Атака Титанов",
+                "en": "Attack on Titan"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 308,
+              "text": {
+                "ru": "Токийские мстители",
+                "en": "Tokyo Revengers"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 400,
+          "difficulty": 7
+        },
+        {
+          "id": 78,
+          "text": {
+            "ru": "Кто режиссер фильма 'Унесенные призраками'?",
+            "en": "Who directed the film 'Spirited Away'?"
+          },
+          "answers": [
+            {
+              "id": 309,
+              "text": {
+                "ru": "Макото Синкай",
+                "en": "Makoto Shinkai"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 310,
+              "text": {
+                "ru": "Хаяо Миядзаки",
+                "en": "Hayao Miyazaki"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 311,
+              "text": {
+                "ru": "Сатоши Кон",
+                "en": "Satoshi Kon"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 312,
+              "text": {
+                "ru": "Мамору Хосода",
+                "en": "Mamoru Hosoda"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 450,
+          "difficulty": 8
+        },
+        {
+          "id": 79,
+          "text": {
+            "ru": "Как называется мир в аниме 'Волейбол!!'?",
+            "en": "What is the volleyball world called in 'Haikyuu!!'?"
+          },
+          "answers": [
+            {
+              "id": 313,
+              "text": {
+                "ru": "Карасуно",
+                "en": "Karasuno"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 314,
+              "text": {
+                "ru": "Некоома",
+                "en": "Nekoma"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 315,
+              "text": {
+                "ru": "Малый гигант",
+                "en": "Little Giant"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 316,
+              "text": {
+                "ru": "Вершина",
+                "en": "The Summit"
+              },
+              "isCorrect": true
+            }
+          ],
+          "reward": 500,
+          "difficulty": 9
+        },
+        {
+          "id": 80,
+          "text": {
+            "ru": "Какой год считается годом рождения современного аниме?",
+            "en": "Which year is considered the birth year of modern anime?"
+          },
+          "answers": [
+            {
+              "id": 317,
+              "text": {
+                "ru": "1963",
+                "en": "1963"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 318,
+              "text": {
+                "ru": "1970",
+                "en": "1970"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 319,
+              "text": {
+                "ru": "1985",
+                "en": "1985"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 320,
+              "text": {
+                "ru": "1995",
+                "en": "1995"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 550,
+          "difficulty": 10
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": {
+        "ru": "Манга",
+        "en": "Manga"
+      },
+      "questions": [
+        {
+          "id": 81,
+          "text": {
+            "ru": "Как называется самый популярный журнал манги в Японии?",
+            "en": "What is the name of the most popular manga magazine in Japan?"
+          },
+          "answers": [
+            {
+              "id": 321,
+              "text": {
+                "ru": "Shonen Jump",
+                "en": "Shonen Jump"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 322,
+              "text": {
+                "ru": "Morning",
+                "en": "Morning"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 323,
+              "text": {
+                "ru": "Big Comic",
+                "en": "Big Comic"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 324,
+              "text": {
+                "ru": "Nakayoshi",
+                "en": "Nakayoshi"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 82,
+          "text": {
+            "ru": "Как читается традиционная манга?",
+            "en": "How is traditional manga read?"
+          },
+          "answers": [
+            {
+              "id": 325,
+              "text": {
+                "ru": "Слева направо",
+                "en": "Left to right"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 326,
+              "text": {
+                "ru": "Справа налево",
+                "en": "Right to left"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 327,
+              "text": {
+                "ru": "Сверху вниз",
+                "en": "Top to bottom"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 328,
+              "text": {
+                "ru": "Как обычная книга",
+                "en": "Like a regular book"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 83,
+          "text": {
+            "ru": "Какая манга является самой продаваемой в истории?",
+            "en": "Which manga is the best-selling in history?"
+          },
+          "answers": [
+            {
+              "id": 329,
+              "text": {
+                "ru": "One Piece",
+                "en": "One Piece"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 330,
+              "text": {
+                "ru": "Dragon Ball",
+                "en": "Dragon Ball"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 331,
+              "text": {
+                "ru": "Naruto",
+                "en": "Naruto"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 332,
+              "text": {
+                "ru": "Demon Slayer",
+                "en": "Demon Slayer"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 84,
+          "text": {
+            "ru": "Как называется автор манги?",
+            "en": "What is a manga author called?"
+          },
+          "answers": [
+            {
+              "id": 333,
+              "text": {
+                "ru": "Мангака",
+                "en": "Mangaka"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 334,
+              "text": {
+                "ru": "Сенсей",
+                "en": "Sensei"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 335,
+              "text": {
+                "ru": "Артист",
+                "en": "Artist"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 336,
+              "text": {
+                "ru": "Иллюстратор",
+                "en": "Illustrator"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 85,
+          "text": {
+            "ru": "В каком году была впервые опубликована манга 'Death Note'?",
+            "en": "In what year was the manga 'Death Note' first published?"
+          },
+          "answers": [
+            {
+              "id": 337,
+              "text": {
+                "ru": "2001",
+                "en": "2001"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 338,
+              "text": {
+                "ru": "2003",
+                "en": "2003"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 339,
+              "text": {
+                "ru": "2005",
+                "en": "2005"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 340,
+              "text": {
+                "ru": "1999",
+                "en": "1999"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
+        {
+          "id": 86,
+          "text": {
+            "ru": "Какой стиль манги предназначен для девушек?",
+            "en": "Which manga style is aimed at girls?"
+          },
+          "answers": [
+            {
+              "id": 341,
+              "text": {
+                "ru": "Сёнэн",
+                "en": "Shonen"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 342,
+              "text": {
+                "ru": "Сёдзё",
+                "en": "Shojo"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 343,
+              "text": {
+                "ru": "Сэйнэн",
+                "en": "Seinen"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 344,
+              "text": {
+                "ru": "Дзёсэй",
+                "en": "Josei"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 350,
+          "difficulty": 6
+        },
+        {
+          "id": 87,
+          "text": {
+            "ru": "Кто создал мангу 'Attack on Titan'?",
+            "en": "Who created the manga 'Attack on Titan'?"
+          },
+          "answers": [
+            {
+              "id": 345,
+              "text": {
+                "ru": "Хаяо Миядзаки",
+                "en": "Hayao Miyazaki"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 346,
+              "text": {
+                "ru": "Хадзимэ Исаяма",
+                "en": "Hajime Isayama"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 347,
+              "text": {
+                "ru": "Эйитиро Ода",
+                "en": "Eiichiro Oda"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 348,
+              "text": {
+                "ru": "Масаси Кишимото",
+                "en": "Masashi Kishimoto"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 400,
+          "difficulty": 7
+        },
+        {
+          "id": 88,
+          "text": {
+            "ru": "Как называется черно-белая манга с минималистичным стилем?",
+            "en": "What is the name of black-and-white manga with a minimalist style?"
+          },
+          "answers": [
+            {
+              "id": 349,
+              "text": {
+                "ru": "Гэкига",
+                "en": "Gekiga"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 350,
+              "text": {
+                "ru": "Янкомэ",
+                "en": "Yonkoma"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 351,
+              "text": {
+                "ru": "Додзинси",
+                "en": "Doujinshi"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 352,
+              "text": {
+                "ru": "Махва",
+                "en": "Manhwa"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 450,
+          "difficulty": 8
+        },
+        {
+          "id": 89,
+          "text": {
+            "ru": "Какая манга вдохновила создание жанра 'меха'?",
+            "en": "Which manga inspired the 'mecha' genre?"
+          },
+          "answers": [
+            {
+              "id": 353,
+              "text": {
+                "ru": "Neon Genesis Evangelion",
+                "en": "Neon Genesis Evangelion"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 354,
+              "text": {
+                "ru": "Mobile Suit Gundam",
+                "en": "Mobile Suit Gundam"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 355,
+              "text": {
+                "ru": "Tetsujin 28-go",
+                "en": "Tetsujin 28-go"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 356,
+              "text": {
+                "ru": "Ghost in the Shell",
+                "en": "Ghost in the Shell"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 500,
+          "difficulty": 9
+        },
+        {
+          "id": 90,
+          "text": {
+            "ru": "Как называется процесс создания манги с использованием цифровых инструментов?",
+            "en": "What is the process of creating manga using digital tools called?"
+          },
+          "answers": [
+            {
+              "id": 357,
+              "text": {
+                "ru": "Диджитал арт",
+                "en": "Digital art"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 358,
+              "text": {
+                "ru": "CGI манга",
+                "en": "CGI manga"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 359,
+              "text": {
+                "ru": "Диджитал манга",
+                "en": "Digital manga"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 360,
+              "text": {
+                "ru": "Веб-манга",
+                "en": "Web manga"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 550,
+          "difficulty": 10
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": {
+        "ru": "Игры",
+        "en": "Games"
+      },
+      "questions": [
+        {
+          "id": 91,
+          "text": {
+            "ru": "Какая компания создала серию игр Mario?",
+            "en": "Which company created the Mario game series?"
+          },
+          "answers": [
+            {
+              "id": 361,
+              "text": {
+                "ru": "Sony",
+                "en": "Sony"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 362,
+              "text": {
+                "ru": "Nintendo",
+                "en": "Nintendo"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 363,
+              "text": {
+                "ru": "Microsoft",
+                "en": "Microsoft"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 364,
+              "text": {
+                "ru": "Sega",
+                "en": "Sega"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 92,
+          "text": {
+            "ru": "Как называется главный герой серии игр The Legend of Zelda?",
+            "en": "What is the name of the main character in The Legend of Zelda series?"
+          },
+          "answers": [
+            {
+              "id": 365,
+              "text": {
+                "ru": "Зельда",
+                "en": "Zelda"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 366,
+              "text": {
+                "ru": "Линк",
+                "en": "Link"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 367,
+              "text": {
+                "ru": "Ганон",
+                "en": "Ganon"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 368,
+              "text": {
+                "ru": "Марио",
+                "en": "Mario"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 93,
+          "text": {
+            "ru": "Какая игра является самой продаваемой в истории?",
+            "en": "Which game is the best-selling of all time?"
+          },
+          "answers": [
+            {
+              "id": 369,
+              "text": {
+                "ru": "Tetris",
+                "en": "Tetris"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 370,
+              "text": {
+                "ru": "Minecraft",
+                "en": "Minecraft"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 371,
+              "text": {
+                "ru": "Grand Theft Auto V",
+                "en": "Grand Theft Auto V"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 372,
+              "text": {
+                "ru": "Wii Sports",
+                "en": "Wii Sports"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 94,
+          "text": {
+            "ru": "В каком году вышла первая игра серии Pokémon?",
+            "en": "In what year was the first Pokémon game released?"
+          },
+          "answers": [
+            {
+              "id": 373,
+              "text": {
+                "ru": "1996",
+                "en": "1996"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 374,
+              "text": {
+                "ru": "1998",
+                "en": "1998"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 375,
+              "text": {
+                "ru": "1994",
+                "en": "1994"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 376,
+              "text": {
+                "ru": "2000",
+                "en": "2000"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 95,
+          "text": {
+            "ru": "Как называется виртуальная реальность в игре Sword Art Online?",
+            "en": "What is the virtual reality called in Sword Art Online?"
+          },
+          "answers": [
+            {
+              "id": 377,
+              "text": {
+                "ru": "OASIS",
+                "en": "OASIS"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 378,
+              "text": {
+                "ru": "NerveGear",
+                "en": "NerveGear"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 379,
+              "text": {
+                "ru": "Matrix",
+                "en": "Matrix"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 380,
+              "text": {
+                "ru": "Holodeck",
+                "en": "Holodeck"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
+        {
+          "id": 96,
+          "text": {
+            "ru": "Какая игра вдохновила создание жанра MOBA?",
+            "en": "Which game inspired the creation of the MOBA genre?"
+          },
+          "answers": [
+            {
+              "id": 381,
+              "text": {
+                "ru": "League of Legends",
+                "en": "League of Legends"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 382,
+              "text": {
+                "ru": "Defense of the Ancients (DotA)",
+                "en": "Defense of the Ancients (DotA)"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 383,
+              "text": {
+                "ru": "Heroes of the Storm",
+                "en": "Heroes of the Storm"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 384,
+              "text": {
+                "ru": "Smite",
+                "en": "Smite"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 350,
+          "difficulty": 6
+        },
+        {
+          "id": 97,
+          "text": {
+            "ru": "Как называется процесс создания игр без программирования?",
+            "en": "What is the process of creating games without programming called?"
+          },
+          "answers": [
+            {
+              "id": 385,
+              "text": {
+                "ru": "Геймдизайн",
+                "en": "Game design"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 386,
+              "text": {
+                "ru": "Визуальное программирование",
+                "en": "Visual programming"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 387,
+              "text": {
+                "ru": "Ноу-код разработка",
+                "en": "No-code development"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 388,
+              "text": {
+                "ru": "Скриптинг",
+                "en": "Scripting"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 400,
+          "difficulty": 7
+        },
+        {
+          "id": 98,
+          "text": {
+            "ru": "Какая игра первой ввела концепцию 'открытого мира'?",
+            "en": "Which game first introduced the 'open world' concept?"
+          },
+          "answers": [
+            {
+              "id": 389,
+              "text": {
+                "ru": "Grand Theft Auto III",
+                "en": "Grand Theft Auto III"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 390,
+              "text": {
+                "ru": "The Legend of Zelda",
+                "en": "The Legend of Zelda"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 391,
+              "text": {
+                "ru": "Elder Scrolls: Arena",
+                "en": "Elder Scrolls: Arena"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 392,
+              "text": {
+                "ru": "Ultima",
+                "en": "Ultima"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 450,
+          "difficulty": 8
+        },
+        {
+          "id": 99,
+          "text": {
+            "ru": "Как называется японский аналог западного термина 'геймер'?",
+            "en": "What is the Japanese equivalent of the Western term 'gamer'?"
+          },
+          "answers": [
+            {
+              "id": 393,
+              "text": {
+                "ru": "Отаку",
+                "en": "Otaku"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 394,
+              "text": {
+                "ru": "Гейму",
+                "en": "Geimu"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 395,
+              "text": {
+                "ru": "Рэдзу",
+                "en": "Rezu"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 396,
+              "text": {
+                "ru": "Нэтто",
+                "en": "Netto"
+              },
+              "isCorrect": false
+            }
+          ],
+          "reward": 500,
+          "difficulty": 9
+        },
+        {
+          "id": 100,
+          "text": {
+            "ru": "Какая технология используется в VR-играх для отслеживания движений?",
+            "en": "Which technology is used in VR games for motion tracking?"
+          },
+          "answers": [
+            {
+              "id": 397,
+              "text": {
+                "ru": "Ray tracing",
+                "en": "Ray tracing"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 398,
+              "text": {
+                "ru": "Inside-out tracking",
+                "en": "Inside-out tracking"
+              },
+              "isCorrect": true
+            },
+            {
+              "id": 399,
+              "text": {
+                "ru": "DLSS",
+                "en": "DLSS"
+              },
+              "isCorrect": false
+            },
+            {
+              "id": 400,
+              "text": {
+                "ru": "V-sync",
+                "en": "V-sync"
               },
               "isCorrect": false
             }
