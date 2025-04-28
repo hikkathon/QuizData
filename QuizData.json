@@ -1,6 +1,6 @@
 {
-  "countQuestion": 70,
-  "countTheme": 7,
+  "countQuestion": 80,
+  "countTheme": 8,
   "themes": [
     {
       "id": 1,
@@ -878,6 +878,132 @@
             {"id": 278, "text": "Углерод", "isCorrect": true},
             {"id": 279, "text": "Водород", "isCorrect": false},
             {"id": 280, "text": "Азот", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Аниме",
+      "questions": [
+        {
+          "id": 71,
+          "text": "Как зовут главного героя 'Наруто'?",
+          "answers": [
+            {"id": 281, "text": "Саске Учиха", "isCorrect": false},
+            {"id": 282, "text": "Наруто Узумаки", "isCorrect": true},
+            {"id": 283, "text": "Какаши Хатаке", "isCorrect": false},
+            {"id": 284, "text": "Хината Хьюга", "isCorrect": false}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 72,
+          "text": "Какое аниме стало самым кассовым фильмом в Японии в 2020 году?",
+          "answers": [
+            {"id": 285, "text": "Атака титанов", "isCorrect": false},
+            {"id": 286, "text": "Демон Слейер: Поезд Бесконечный", "isCorrect": true},
+            {"id": 287, "text": "Твоё имя", "isCorrect": false},
+            {"id": 288, "text": "Ходячий замок", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 73,
+          "text": "Кто автор манги 'One Piece'?",
+          "answers": [
+            {"id": 289, "text": "Масаси Кишимото", "isCorrect": false},
+            {"id": 290, "text": "Эйитиро Ода", "isCorrect": true},
+            {"id": 291, "text": "Хаяо Миядзаки", "isCorrect": false},
+            {"id": 292, "text": "Тайто Кубо", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 74,
+          "text": "Как называется гигантский человекоподобный робот в аниме?",
+          "answers": [
+            {"id": 293, "text": "Киберпанк", "isCorrect": false},
+            {"id": 294, "text": "Меха", "isCorrect": true},
+            {"id": 295, "text": "Гандам", "isCorrect": false},
+            {"id": 296, "text": "Трансформер", "isCorrect": false}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 75,
+          "text": "Какая студия создала 'Атаку титанов'?",
+          "answers": [
+            {"id": 297, "text": "Bones", "isCorrect": false},
+            {"id": 298, "text": "Madhouse", "isCorrect": false},
+            {"id": 299, "text": "Wit Studio", "isCorrect": true},
+            {"id": 300, "text": "Kyoto Animation", "isCorrect": false}
+          ],
+          "reward": 300,
+          "difficulty": 5
+        },
+        {
+          "id": 76,
+          "text": "Как зовут кота-автобуса из 'Унесённых призраками'?",
+          "answers": [
+            {"id": 301, "text": "Тоторо", "isCorrect": false},
+            {"id": 302, "text": "Дзидзи", "isCorrect": false},
+            {"id": 303, "text": "Хаку", "isCorrect": false},
+            {"id": 304, "text": "Без имени (просто Кот-автобус)", "isCorrect": true}
+          ],
+          "reward": 100,
+          "difficulty": 1
+        },
+        {
+          "id": 77,
+          "text": "Какое аниме относится к жанру 'Сёнэн'?",
+          "answers": [
+            {"id": 305, "text": "Sailor Moon", "isCorrect": false},
+            {"id": 306, "text": "Death Note", "isCorrect": true},
+            {"id": 307, "text": "Cardcaptor Sakura", "isCorrect": false},
+            {"id": 308, "text": "Nana", "isCorrect": false}
+          ],
+          "reward": 150,
+          "difficulty": 2
+        },
+        {
+          "id": 78,
+          "text": "Как называется техника атаки Гоку в 'Dragon Ball'?",
+          "answers": [
+            {"id": 309, "text": "Расенган", "isCorrect": false},
+            {"id": 310, "text": "Камехамеха", "isCorrect": true},
+            {"id": 311, "text": "Хадо № 90", "isCorrect": false},
+            {"id": 312, "text": "Гецутен Тотсука", "isCorrect": false}
+          ],
+          "reward": 200,
+          "difficulty": 3
+        },
+        {
+          "id": 79,
+          "text": "Какой термин описывает японский стиль анимации с большими глазами?",
+          "answers": [
+            {"id": 313, "text": "Каваий", "isCorrect": false},
+            {"id": 314, "text": "Моэ", "isCorrect": false},
+            {"id": 315, "text": "Сёдзё", "isCorrect": false},
+            {"id": 316, "text": "Супердеформация", "isCorrect": true}
+          ],
+          "reward": 250,
+          "difficulty": 4
+        },
+        {
+          "id": 80,
+          "text": "Кто режиссер фильма 'Призрак в доспехах' (1995)?",
+          "answers": [
+            {"id": 317, "text": "Сатоши Кон", "isCorrect": false},
+            {"id": 318, "text": "Мамору Осии", "isCorrect": true},
+            {"id": 319, "text": "Шинъичи Ватанабе", "isCorrect": false},
+            {"id": 320, "text": "Макото Синкай", "isCorrect": false}
           ],
           "reward": 300,
           "difficulty": 5
